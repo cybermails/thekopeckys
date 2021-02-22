@@ -153,6 +153,8 @@ Error message and password prompt
 
 <li>$:/config/Navigation/openLinkFromInsideRiver</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/encryption</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
@@ -163,7 +165,11 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview</li>
 
@@ -182,6 +188,10 @@ Error message and password prompt
 <li>$:/config/Toolbar/ButtonClass</li>
 
 <li>$:/config/Toolbar/Text</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions</li>
 
 <li>$:/core</li>
 
@@ -227,6 +237,8 @@ Error message and password prompt
 
 <li>$:/state/showeditpreview</li>
 
+<li>$:/state/tab--1963855381</li>
+
 <li>$:/state/tab--2112689675</li>
 
 <li>$:/state/tab-1749438307</li>
@@ -236,6 +248,8 @@ Error message and password prompt
 <li>$:/state/tab/moresidebar-1850697562</li>
 
 <li>$:/state/tab/sidebar--595412856</li>
+
+<li>$:/state/tabs/controlpanel/toolbars-1345989671</li>
 
 <li>$:/state/toc/Contents-Home Page-1843068618</li>
 
@@ -322,29 +336,38 @@ Error message and password prompt
 <div created="20201021171442978" modified="20201021181543378" title="$:/config/Navigation/openLinkFromInsideRiver">
 <pre>below</pre>
 </div>
+<div created="20210222014143181" modified="20210222014143181" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<pre>hide</pre>
+</div>
 <div created="20201020134807989" modified="20201020134811331" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/encryption">
 <pre>hide</pre>
 </div>
 <div created="20201020134655443" modified="20201020134655443" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
-<div created="20201020134748938" modified="20201020134748938" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/manager">
-<pre>show</pre>
+<div created="20201020134748938" modified="20210222014145736" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/manager">
+<pre>hide</pre>
 </div>
-<div created="20201021170914966" modified="20201021170914966" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
-<pre>show</pre>
+<div created="20201021170914966" modified="20210222014154994" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
+<pre>hide</pre>
 </div>
-<div created="20201020134710565" modified="20201020134710565" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
-<pre>show</pre>
+<div created="20201020134710565" modified="20210222014139930" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
+<pre>hide</pre>
 </div>
-<div created="20201021170916239" modified="20201021170916239" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh">
-<pre>show</pre>
+<div created="20210222014138664" modified="20210222014138664" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<pre>hide</pre>
+</div>
+<div created="20201021170916239" modified="20210222014152552" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh">
+<pre>hide</pre>
+</div>
+<div created="20210222014151515" modified="20210222014151515" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki">
+<pre>hide</pre>
 </div>
 <div created="20201020134803453" modified="20201020150205087" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview">
 <pre>hide</pre>
 </div>
-<div created="20201020134752006" modified="20201020134752006" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager">
-<pre>show</pre>
+<div created="20201020134752006" modified="20210222014147600" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager">
+<pre>hide</pre>
 </div>
 <div created="20201020134757180" modified="20201020150154081" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/theme">
 <pre>hide</pre>
@@ -366,6 +389,12 @@ Error message and password prompt
 </div>
 <div created="20201021171702684" modified="20201021171708025" title="$:/config/Toolbar/Text">
 <pre>no</pre>
+</div>
+<div created="20210222014217069" modified="20210222014217069" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
+<pre>hide</pre>
+</div>
+<div created="20210222014223653" modified="20210222014223653" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
+<pre>hide</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.23">
 <pre>{
@@ -10358,10 +10387,13 @@ Error message and password prompt
 <div created="20210222012857962" modified="20210222012920371" title="$:/state/showeditpreview">
 <pre>no</pre>
 </div>
+<div created="20210222014047277" modified="20210222014114756" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Toolbars</pre>
+</div>
 <div created="20210222011127403" creator="Kumudan Grubh" modified="20210222011158089" modifier="Kumudan Grubh" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Advanced</pre>
 </div>
-<div created="20210222011204446" modified="20210222014004094" title="$:/state/tab-1749438307">
+<div created="20210222011204446" modified="20210222014045495" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20210222011210586" modified="20210222011210586" title="$:/state/tab-2065006209">
@@ -10372,6 +10404,9 @@ Error message and password prompt
 </div>
 <div created="20210222012142268" modified="20210222012213532" title="$:/state/tab/sidebar--595412856">
 <pre>Contents</pre>
+</div>
+<div created="20210222014129843" modified="20210222014229375" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/EditorToolbar</pre>
 </div>
 <div created="20210222013840453" modified="20210222013840453" title="$:/state/toc/Contents-Home Page-1843068618">
 <pre>open</pre>
@@ -10385,11 +10420,11 @@ Error message and password prompt
 <div created="20201022222749469" creator="K" modified="20210222011132741" modifier="Kumudan Grubh" title="$:/status/UserName">
 <pre></pre>
 </div>
-<div created="20210222014000856" list="$:/ControlPanel [[Home Page]]" modified="20210222014000856" title="$:/StoryList">
+<div created="20210222014041004" list="$:/ControlPanel [[Home Page]]" modified="20210222014041004" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20201020134209993" modified="20210222014006800" title="$:/theme">
-<pre>$:/themes/tiddlywiki/readonly</pre>
+<div created="20201020134209993" modified="20210222014103036" title="$:/theme">
+<pre>$:/themes/tiddlywiki/seamless</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/snowwhite" description="Centralises the story river" name="Centralised" plugin-type="theme" title="$:/themes/tiddlywiki/centralised" type="application/json" version="5.1.23">
 <pre>{
